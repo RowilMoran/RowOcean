@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="37.5pt" height="37.499999pt" viewBox="0 0 37.5 37.499999" version="1.2">
+<defs>
+<g>
+<symbol overflow="visible" id="glyph0-0">
+<path style="stroke:none;" d="M 2.140625 -14.65625 L 13.84375 -14.65625 L 13.84375 0 L 2.140625 0 Z M 2.921875 -13.875 L 2.921875 -0.796875 L 13.046875 -0.796875 L 13.046875 -13.875 Z M 2.921875 -13.875 "/>
+</symbol>
+<symbol overflow="visible" id="glyph0-1">
+<path style="stroke:none;" d="M 6.984375 -6.328125 L 6.984375 -1.875 L 5.453125 -1.875 L 5.453125 -6.328125 L 1.046875 -6.328125 L 1.046875 -7.84375 L 5.453125 -7.84375 L 5.453125 -12.296875 L 6.984375 -12.296875 L 6.984375 -7.84375 L 11.390625 -7.84375 L 11.390625 -6.328125 Z M 6.984375 -6.328125 "/>
+</symbol>
+</g>
+<clipPath id="clip1">
+  <path d="M 0 0 L 37.007812 0 L 37.007812 37.007812 L 0 37.007812 Z M 0 0 "/>
+</clipPath>
+</defs>
+<g id="surface1">
+<g clip-path="url(#clip1)" clip-rule="nonzero">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(16.079712%,59.609985%,71.759033%);fill-opacity:1;" d="M 4.6875 0 L 4.6875 7.03125 L 0 7.03125 L 0 37.5 L 30.46875 37.5 L 30.46875 32.8125 L 37.5 32.8125 L 37.5 0 Z M 35.15625 2.34375 L 35.15625 30.46875 L 30.46875 30.46875 L 30.46875 7.03125 L 7.03125 7.03125 L 7.03125 2.34375 Z M 35.15625 2.34375 "/>
+</g>
+<g style="fill:rgb(100%,100%,100%);fill-opacity:1;">
+  <use xlink:href="#glyph0-1" x="9.353855" y="27.88723"/>
+</g>
+</g>
+</svg>
