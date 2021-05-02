@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utilities.css">
     <link rel="stylesheet" href="css/normalize.css">
     <title>RowOcean</title>
 </head>
 <body>
     <!-- nav-bar -->
-    <section class="nav-bar">
+    <div class="nav-bar">
         <div class="container flex">
             <div class="logo">
                 <i class="fas fa-cloud-upload-alt"></i>
@@ -25,7 +26,7 @@
                 </ul>
             </nav>
         </div>
-    </section>
+    </div>
 
     <section class="showcase">
         <div class="container grid">
@@ -47,14 +48,34 @@
                         <input type="email" placeholder="Email" required name="email" >
                     </div>
                     <input type="submit" value="Send" class="btn btn-primary">
-
                 </form>
-
             </div>
-
         </div>
     </section>
 
+    <section class="stats">
+        <div class="container">
+            <h3 class="stats-heading text-center my-1">We’re here to help you be successful.</h3>
+            <div class="grid grid-3 text-center my-4">
+                <div>
+                    <img src="resources/svg/Lesson.svg" alt="" width="50px" height="50px">
+                    <h3>3,000 tutorials</h3>
+                    <p class="text-secundary">Our cloud-agnostic open source guides help millions of developers learn and build new software every day.</p>
+                </div>
+                <div>
+                    <img src="resources/svg/Chat.svg" alt="" width="50px" height="50px">
+                    <h3>Active Comunity</h3>
+                    <p class="text-secundary">Have a question about a particular technology you’re using? Join the discussion on our active Q&A forum.</p>
+                </div>
+                <div>
+                    <img src="resources/svg/Assistance.svg" alt="" width="50px" height="50px">
+                    <h3>World-class service</h3>
+                    <p class="text-secundary">Free round-the-clock technical support for all customers regardless of how much you spend with us.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
 
 </body>
 </html>
