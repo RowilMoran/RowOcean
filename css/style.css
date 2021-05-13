@@ -129,9 +129,7 @@ nav ul{
 .showcase-text {
     margin: 0px 15px;
     position: relative;
-    animation: left-to-right;
-    animation-duration: 1.3s;
-    animation-fill-mode: forwards;
+    animation: left-to-right 1.3s ease-in;
 }
 
 @keyframes left-to-right {
@@ -177,9 +175,7 @@ nav ul{
     top: 70px;
     height: 380px;
     width: 400px;
-    animation: right-to-left;
-    animation-duration: 1.3s;
-    animation-fill-mode: forwards;
+    animation: right-to-left 1.3s ease;
 }
 
 @keyframes right-to-left {
@@ -187,6 +183,10 @@ nav ul{
     100% {right: 0;}
 }
 
+.hidden {
+    visibility: hidden;
+    height: 0;
+}
 .showcase .card {
     margin: 10px 40px;
 }
@@ -246,8 +246,7 @@ nav ul{
 .stats {
     padding-top: 100px;
     position: relative;
-    animation-name: bottom-to-top;
-    animation-duration: 1.3s;
+    animation: bottom-to-top 1.3s ease-in;
 }
 
 @keyframes bottom-to-top {
