@@ -123,7 +123,7 @@ nav ul{
 
 .showcase .grid {
     gap: 30px;
-    grid-template-columns: 55% 45%;
+    grid-template-columns: 55% auto;
 }
 
 .showcase-text {
@@ -522,6 +522,7 @@ footer h2 {
 
     .showcase-text {
         margin-top: 15px;
+        text-align: center;
     }
 
     .showcase-form {
@@ -546,8 +547,10 @@ footer h2 {
     .header img, .plataform img {
         justify-self: center;
         padding-top: 20px;
+        max-width: 280px;
     }
 
+   
     footer{
         height: auto;
     }
@@ -572,7 +575,7 @@ footer h2 {
 
     .nav-bar {
         height: 140px;
-        overflow: auto;
+        overflow: auto;  
     }
 
     .nav-bar h1 {
@@ -583,4 +586,36 @@ footer h2 {
         flex-direction: column;
         justify-content: center;
     }
+    .showcase-form {
+        width: 300px;
+      }
+    
+    .showcase-text{
+        width: 320px;
+        margin: auto;
+    }
+
+    .showcase-text h2, .showcase-text p {
+        padding: 0;
+    }
+
+    .header .container {
+        padding: 10px;
+    }
+    .plataform .container {
+        padding: 20px 10px;
+    }
+
+    .plataform .text, .header .text{
+        text-align: center;
+    }
+        
+    .plataform h4 {
+        font-size: 2rem;
+    }
+
+    .items {
+        margin: 20px 0;
+    }
+
 }
